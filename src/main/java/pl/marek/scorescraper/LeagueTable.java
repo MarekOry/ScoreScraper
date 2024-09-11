@@ -2,20 +2,28 @@ package pl.marek.scorescraper;
 
 import java.util.List;
 
-class LeagueTable {
+class LeagueTable extends ScrapeResult {
     private final String leagueName;
-    private final List<ClubPosition> clubPositions;
+    private final List<LeagueClubPosition> leagueClubPositions;
 
-    public LeagueTable(String leagueName, List<ClubPosition> clubPositions) {
+    public LeagueTable(String leagueName, List<LeagueClubPosition> leagueClubPositions) {
         this.leagueName = leagueName;
-        this.clubPositions = clubPositions;
+        this.leagueClubPositions = leagueClubPositions;
+    }
+
+    public String getLeagueName() {
+        return leagueName;
+    }
+
+    public List<LeagueClubPosition> getLeagueClubPositions() {
+        return leagueClubPositions;
     }
 
     @Override
     public String toString() {
         return "LeagueTable{" +
                 "leagueName='" + leagueName + '\'' +
-                ", clubPositions=" + clubPositions +
+                ", clubPositions=" + leagueClubPositions +
                 '}';
     }
 }

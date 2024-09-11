@@ -1,6 +1,6 @@
 package pl.marek.scorescraper;
 
-class ClubPosition {
+class LeagueClubPosition {
     private final String clubName;
     private final Short place;
     private final Short wins;
@@ -9,7 +9,7 @@ class ClubPosition {
     private final String goals;
     private final Short points;
 
-    private ClubPosition(String clubName, Short place, Short wins, Short draws, Short loses, String goals, Short points) {
+    private LeagueClubPosition(String clubName, Short place, Short wins, Short draws, Short loses, String goals, Short points) {
         this.clubName = clubName;
         this.place = place;
         this.wins = wins;
@@ -63,8 +63,8 @@ class ClubPosition {
             return this;
         }
 
-        public ClubPosition build(){
-            return new ClubPosition(clubName, place, wins, draws, loses, goals, points);
+        public LeagueClubPosition build(){
+            return new LeagueClubPosition(clubName, place, wins, draws, loses, goals, points);
         }
     }
 

@@ -1,10 +1,13 @@
-package pl.marek.scorescraper;
+package pl.marek.scorescraper.scraper;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
+import pl.marek.scorescraper.scrapeResults.ClubMatchResult;
+import pl.marek.scorescraper.scrapeResults.ClubResults;
+import pl.marek.scorescraper.scrapeResults.ScrapeResult;
 
 
 import java.io.IOException;
@@ -13,7 +16,7 @@ import java.time.format.DateTimeParseException;
 import java.util.ArrayList;
 import java.util.List;
 
-class ScrapeTeamResultsStrategy implements ScraperStrategy{
+public class ScrapeTeamResultsStrategy implements ScraperStrategy{
     private static final Logger log = LogManager.getLogger(ScrapeTeamResultsStrategy.class);
 
     @Override

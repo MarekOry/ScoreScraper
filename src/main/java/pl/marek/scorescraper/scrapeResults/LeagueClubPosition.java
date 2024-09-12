@@ -1,6 +1,6 @@
-package pl.marek.scorescraper;
+package pl.marek.scorescraper.scrapeResults;
 
-class LeagueClubPosition {
+public class LeagueClubPosition {
     private final String clubName;
     private final Short place;
     private final Short wins;

@@ -1,8 +1,8 @@
-package pl.marek.scorescraper;
+package pl.marek.scorescraper.scrapeResults;
 
 import java.time.Instant;
 
-class ClubMatchResult {
+public class ClubMatchResult {
     private final String league;
     private final Instant dateOfMatch;
     private final String round;

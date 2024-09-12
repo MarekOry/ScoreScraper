@@ -1,6 +1,8 @@
-package pl.marek.scorescraper;
+package pl.marek.scorescraper.scraper;
 
-class Scraper implements ScraperStrategy{
+import pl.marek.scorescraper.scrapeResults.ScrapeResult;
+
+public class Scraper implements ScraperStrategy{
     public ScraperStrategy scraperStrategy;
     @Override
     public ScrapeResult scrape(String url) {

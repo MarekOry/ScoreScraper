@@ -1,8 +1,8 @@
-package pl.marek.scorescraper;
+package pl.marek.scorescraper.scrapeResults;
 
 import java.util.List;
 
-class ClubResults extends ScrapeResult {
+public class ClubResults extends ScrapeResult {
     private final String clubName;
     private final List<ClubMatchResult> clubMatchResults;
 

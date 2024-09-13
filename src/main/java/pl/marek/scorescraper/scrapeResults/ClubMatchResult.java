@@ -1,6 +1,7 @@
 package pl.marek.scorescraper.scrapeResults;
 
 import java.time.Instant;
+import java.util.Objects;
 
 public class ClubMatchResult {
     private final String league;
@@ -72,6 +73,19 @@ public class ClubMatchResult {
 
     public String getResult() {
         return result;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        ClubMatchResult that = (ClubMatchResult) o;
+        return Objects.equals(league, that.league) && Objects.equals(dateOfMatch, that.dateOfMatch) && Objects.equals(round, that.round) && Objects.equals(teamsPlaying, that.teamsPlaying) && Objects.equals(result, that.result);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(league, dateOfMatch, round, teamsPlaying, result);
     }
 
     @Override

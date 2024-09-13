@@ -1,7 +1,7 @@
 package pl.marek.scorescraper.scraper;
 
-import pl.marek.scorescraper.scrapeResults.ScrapeResult;
+import org.jsoup.nodes.Document;
 
-public interface ScraperStrategy {
-    ScrapeResult scrape(String url);
+public interface ScraperStrategy<T> {
+    T scrape(Document document);
 }

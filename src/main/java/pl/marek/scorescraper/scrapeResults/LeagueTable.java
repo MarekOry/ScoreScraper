@@ -2,7 +2,7 @@ package pl.marek.scorescraper.scrapeResults;
 
 import java.util.List;
 
-public class LeagueTable extends ScrapeResult {
+public class LeagueTable{
     private final String leagueName;
     private final List<LeagueClubPosition> leagueClubPositions;
 

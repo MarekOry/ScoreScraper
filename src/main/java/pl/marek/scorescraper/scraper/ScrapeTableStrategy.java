@@ -1,5 +1,6 @@
 package pl.marek.scorescraper.scraper;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -10,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ScrapeTableStrategy implements ScraperStrategy<LeagueTable>{
-    private static final Logger log = org.apache.logging.log4j.LogManager.getLogger(ScrapeTableStrategy.class);
+    private static final Logger log = LogManager.getLogger(ScrapeTableStrategy.class);
 
     @Override
     public LeagueTable scrape(Document document) {
@@ -38,8 +39,8 @@ public class ScrapeTableStrategy implements ScraperStrategy<LeagueTable>{
                         .setGoals(rows.get(7).text())
                         .setPoints(Integer.valueOf(rows.get(8).text()))
                         .build());
-            } catch (NumberFormatException ex) {
-            throw new ScraperException(ex);
+            } catch (NumberFormatException e) {
+            throw new ScraperException(e);
             }
         }
         return leagueClubPositions;

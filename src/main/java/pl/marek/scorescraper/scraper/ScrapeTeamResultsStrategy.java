@@ -1,5 +1,6 @@
 package pl.marek.scorescraper.scraper;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
@@ -12,7 +13,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ScrapeTeamResultsStrategy implements ScraperStrategy<ClubResults> {
-    private static final Logger log = org.apache.logging.log4j.LogManager.getLogger(ScrapeTeamResultsStrategy.class);
+    private static final Logger log = LogManager.getLogger(ScrapeTeamResultsStrategy.class);
 
     @Override
     public ClubResults scrape(Document document) {

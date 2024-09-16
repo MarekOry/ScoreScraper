@@ -1,5 +1,6 @@
 package pl.marek.scorescraper.controller;
 
+import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.springframework.http.ResponseEntity;
@@ -18,7 +19,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/scraper")
 class ScraperController {
-    private static final Logger log = org.apache.logging.log4j.LogManager.getLogger(ScraperController.class);
+    private static final Logger log = LogManager.getLogger(ScraperController.class);
     private final LeagueLinkRepository leagueLinkRepository;
 
     public ScraperController(LeagueLinkRepository leagueLinkRepository) {

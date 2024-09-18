@@ -24,10 +24,10 @@ public class ScoreScraperApplication {
 
 
         ScraperStrategy<LeagueTable> tableScraper = new ScrapeTableStrategy();
-        tableScraper.scrape(ScraperUtil.getDocumentFromUrl(urlLeague));
+//        tableScraper.scrape(ScraperUtil.getDocumentFromUrl(urlLeague));
 
         ScraperStrategy<ClubResults> teamResultsScraper = new ScrapeTeamResultsStrategy();
-        teamResultsScraper.scrape(ScraperUtil.getDocumentFromUrl(urlTeamResults));
+//        teamResultsScraper.scrape(ScraperUtil.getDocumentFromUrl(urlTeamResults));
 
     }
 }

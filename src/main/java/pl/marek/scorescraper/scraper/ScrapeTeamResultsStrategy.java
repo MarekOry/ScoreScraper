@@ -18,9 +18,10 @@ public class ScrapeTeamResultsStrategy implements ScraperStrategy<ClubResults> {
     @Override
     public ClubResults scrape(Document document) {
         Elements results = document.select("body > div > div > div.my-3.my-md-5 > div.container > div.tab-content > div > div.row > table > tbody > tr");
+        String clubName = document.select("body > div > div > div.my-3.my-md-5 > div.container > div.row.g-2 > div.col > h1 > span").text();
 
         List<ClubMatchResult> clubMatchResults = getClubMatchResults(results);
-        ClubResults scrapeResult = new ClubResults("", clubMatchResults);
+        ClubResults scrapeResult = new ClubResults(clubName, clubMatchResults);
 
         log.info(scrapeResult);
         return scrapeResult;

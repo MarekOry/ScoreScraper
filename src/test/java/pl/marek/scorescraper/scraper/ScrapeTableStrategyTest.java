@@ -16,8 +16,8 @@ class ScrapeTableStrategyTest {
     @Test
     public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlExampleThenProperResultSize() throws IOException {
         //Given
-        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.html");
-        Document document = Jsoup.parse(html, "UTF-8", "http://test.su/");
+        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");
+        Document document = Jsoup.parse(html, "UTF-8", "http://test.com/");
         //When
         ScraperStrategy<LeagueTable> scraperStrategy = new ScrapeTableStrategy();
         LeagueTable scraped = scraperStrategy.scrape(document);
@@ -28,8 +28,8 @@ class ScrapeTableStrategyTest {
     @Test
     public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlExampleThenFirstResultCorrect() throws IOException {
         //Given
-        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.html");
-        Document document = Jsoup.parse(html, "UTF-8", "http://test.su/");
+        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");
+        Document document = Jsoup.parse(html, "UTF-8", "http://test.com/");
         //When
         ScraperStrategy<LeagueTable> scraperStrategy = new ScrapeTableStrategy();
         LeagueTable scraped = scraperStrategy.scrape(document);
@@ -49,8 +49,8 @@ class ScrapeTableStrategyTest {
     @Test
     public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlExampleThenLastResultCorrect() throws IOException {
         //Given
-        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.html");
-        Document document = Jsoup.parse(html, "UTF-8", "http://test.su/");
+        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");
+        Document document = Jsoup.parse(html, "UTF-8", "http://test.com/");
         //When
         ScraperStrategy<LeagueTable> scraperStrategy = new ScrapeTableStrategy();
         LeagueTable scraped = scraperStrategy.scrape(document);

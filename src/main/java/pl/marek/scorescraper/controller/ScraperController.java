@@ -2,17 +2,16 @@ package pl.marek.scorescraper.controller;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jsoup.nodes.Document;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import pl.marek.scorescraper.LeagueLink;
-import pl.marek.scorescraper.LeagueLinkRepository;
+import pl.marek.scorescraper.link.ScrapeableLink;
+import pl.marek.scorescraper.link.ScrapeableLinkRepository;
+import pl.marek.scorescraper.link.ScrapeableLinkType;
+import pl.marek.scorescraper.scrapeResults.ClubResults;
 import pl.marek.scorescraper.scrapeResults.LeagueTable;
-import pl.marek.scorescraper.scraper.ScrapeTableStrategy;
-import pl.marek.scorescraper.scraper.ScraperStrategy;
-import pl.marek.scorescraper.scraper.ScraperUtil;
+import pl.marek.scorescraper.scraper.ScraperService;
 
 import java.util.List;
 
@@ -20,30 +19,34 @@ import java.util.List;
 @RequestMapping("/scraper")
 class ScraperController {
     private static final Logger log = LogManager.getLogger(ScraperController.class);
-    private final LeagueLinkRepository leagueLinkRepository;
+    private final ScrapeableLinkRepository scrapeableLinkRepository;
+    private final ScraperService scraperService;
 
-    public ScraperController(LeagueLinkRepository leagueLinkRepository) {
-        this.leagueLinkRepository = leagueLinkRepository;
+    public ScraperController(ScrapeableLinkRepository scrapeableLinkRepository, ScraperService scraperService) {
+        this.scrapeableLinkRepository = scrapeableLinkRepository;
+        this.scraperService = scraperService;
     }
 
     @GetMapping("/leagues")
-    ResponseEntity<List<LeagueLink>> getLeagueLinks() {
-        return ResponseEntity.ok(leagueLinkRepository.findAll());
+    ResponseEntity<List<ScrapeableLink>> getLeagueLinks() {
+        return ResponseEntity.ok(scrapeableLinkRepository.findByScrapeableLinkType(ScrapeableLinkType.LEAGUE));
     }
 
     @GetMapping("/league-table")
     ResponseEntity<LeagueTable> scrapeLeagueTable(String leagueName) {
-        LeagueLink leagueToScrape = leagueLinkRepository.findAll().stream()
-                .filter(league -> leagueName.equals(league.getName()))
-                .findFirst()
-                .orElseThrow(LeagueNotFoundException::new);
-        String link = leagueToScrape.getLink();
-        log.info("Getting html document from {}", link);
-        Document documentFromUrl = ScraperUtil.getDocumentFromUrl(link);
+        LeagueTable scraped = scraperService.scrapeLeagueTable(leagueName);
+        log.info(scraped);
+        return ResponseEntity.ok(scraped);
+    }
 
-        ScraperStrategy<LeagueTable> scraper = new ScrapeTableStrategy();
-        log.info("Scraping the information about {}", leagueName);
-        LeagueTable scraped = scraper.scrape(documentFromUrl);
+    @GetMapping("/clubs")
+    ResponseEntity<List<ScrapeableLink>> getClubLinks() {
+        return ResponseEntity.ok(scrapeableLinkRepository.findByScrapeableLinkType(ScrapeableLinkType.CLUB_RESULT));
+    }
+
+    @GetMapping("/club-results")
+    ResponseEntity<ClubResults> scrapeClubResults(String clubName) {
+        ClubResults scraped = scraperService.scrapeClubResults(clubName);
         log.info(scraped);
         return ResponseEntity.ok(scraped);
     }

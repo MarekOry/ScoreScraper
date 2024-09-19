@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class ScraperUtil {
 
-    public static Document getDocumentFromUrl(String url) throws ScraperException{
+    public static Document getDocumentFromUrl(String url) throws ScraperException {
         try {
             return Jsoup.connect(url).get();
         } catch (IOException e) {

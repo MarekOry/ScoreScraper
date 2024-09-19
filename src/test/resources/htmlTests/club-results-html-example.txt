@@ -1,0 +1,618 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>Widzew Lodz - Soccer - BetsAPI</title>
+  <meta name="keywords" content="Widzew Lodz, Soccer">
+  <meta name="description" content="Widzew Lodz Soccer offers livescore, results, standings and match details.">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <link rel="shortcut icon" href="https://assets.betsapi.com/favicon.ico" type="image/x-icon">
+  <link href="/opensearch.xml" title="BetsAPI Search" rel="search" type="application/opensearchdescription+xml">
+  <link rel="stylesheet" href="https://assets.betsapi.com/v2/css/font-awesome.css">
+  <link rel="stylesheet" href="https://assets.betsapi.com/v2/css/tabler.css?_=3">
+  <link rel="stylesheet" href="https://assets.betsapi.com/v2/css/app.css?_=21">
+  <link rel="canonical" href="https://betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" href="https://betsapi.com/te/88/Widzew-Lodz" hreflang="x-default">
+  <link rel="alternate" hreflang="en" href="https://betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="zh-CN" href="https://cn.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="zh-TW" href="https://tw.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="es" href="https://es.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="de" href="https://de.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="pt" href="https://pt.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="sv" href="https://se.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="it" href="https://it.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ja" href="https://jp.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ko" href="https://kr.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="fr" href="https://fr.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ru" href="https://ru.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="da" href="https://dk.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="no" href="https://no.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="bg" href="https://bg.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="el" href="https://gr.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="pl" href="https://pl.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ro" href="https://ro.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="cs" href="https://cz.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="hu" href="https://hu.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="sk" href="https://sk.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="nl" href="https://nl.betsapi.com/te/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="et" href="https://ee.betsapi.com/te/88/Widzew-Lodz">
+  <script>
+window.FL = {
+  "csrf_token": "66eaa730b6592",
+  "lng_id": 1,
+  "sport_id": 1};
+</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3090818643673582" crossorigin="anonymous"></script>
+  <script src="https://assets.betsapi.com/v2/js/jquery.min.js"></script>
+ </head>
+ <body>
+  <!-- <ins class='hstpnetworkads' style='display: none; width: 300px; height: 600px'></ins> -->
+  <div class="page">
+   <div class="page-main">
+    <div class="header py-4">
+     <div class="container">
+      <div class="d-flex">
+       <a class="header-brand" href="/" style="font-size:200%"> <span style="color:#5F6E37">Bets</span><span style="color:#C18C00">API</span> </a>
+       <div class="d-flex order-lg-2 ml-auto">
+        <div class="d-flex order-lg-2 ml-auto">
+         <div class="dropdown d-none d-md-flex">
+          <a class="nav-link" data-toggle="dropdown"> <i class="fa fa-language"></i>&nbsp;English </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+           <a href="https://betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">English</a> <a href="https://cn.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">简体中文</a> <a href="https://tw.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">繁體中文</a> <a href="https://es.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Español</a> <a href="https://de.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Deutsch</a> <a href="https://pt.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Português</a> <a href="https://it.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Italiano</a> <a href="https://jp.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">日本語</a> <a href="https://kr.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">한국어</a> <a href="https://fr.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Français</a> <a href="https://ru.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Русский</a> <a href="https://se.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Svenska</a> <a href="https://dk.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Dansk</a> <a href="https://no.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Norsk</a> <a href="https://bg.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Български</a> <a href="https://gr.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Ελληνικά</a> <a href="https://pl.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Polski</a> <a href="https://ro.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Română</a> <a href="https://cz.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Česky</a> <a href="https://hu.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Magyar</a> <a href="https://sk.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Slovenčina</a> <a href="https://nl.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Nederlands</a> <a href="https://ee.betsapi.com/te/88/Widzew-Lodz" class="dropdown-item text-center">Eesti</a>
+          </div>
+         </div>
+         <div class="nav-item d-none d-md-flex">
+          <a href="https://betsapi.com/login" class="btn btn-sm btn-outline-primary">Login</a>
+         </div>
+        </div><a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0" data-toggle="collapse" data-target="#headerMenuCollapse"> <span class="header-toggler-icon"></span> </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="header collapse d-lg-flex p-0" id="headerMenuCollapse">
+     <div class="container">
+      <div class="row align-items-center">
+       <div class="col-lg-3 ml-auto">
+        <form action="/search/" class="input-icon my-3 my-lg-0">
+         <input type="hidden" name="sport_id" value="1"> <input type="search" name="q" class="form-control header-search" placeholder="Search…" tabindex="1">
+         <div class="input-icon-addon">
+          <i class="fa fa-search"></i>
+         </div>
+        </form>
+       </div>
+       <div class="col-lg order-lg-first">
+        <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
+         <li class="nav-item"><a href="/" class="nav-link"><i class="fe fe-play"></i> In Play</a></li>
+         <li class="nav-item"><a href="/s/" class="nav-link"><i class="fe fe-calendar"></i> Fixtures</a></li>
+         <li class="nav-item"><a href="/e/" class="nav-link"><i class="fa fa-calendar-check-o"></i> Results</a></li>
+         <li class="nav-item"><a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> More</a>
+          <div class="dropdown-menu dropdown-menu-arrow">
+           <a href="/cd/soccer" class="dropdown-item">Data</a> <a href="https://play.google.com/store/apps/details?id=com.bsportsfan.app" target="_blank" rel="noopener noreferrer" class="dropdown-item">Google Play</a>
+          </div></li>
+         <li class="nav-item dropdown"><a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fa fa-plane"></i> VIP</a>
+          <div class="dropdown-menu dropdown-menu-arrow">
+           <a href="/mm/vip" class="dropdown-item">Buy VIP</a> <a href="/v/dropping-odds" class="dropdown-item">Dropping Odds</a> <a href="/v/gone-odds" class="dropdown-item">Gone Odds</a> <a href="/v/bet365-recent" class="dropdown-item">Bet365 Recent</a> <a href="/v/pinnaclesports-recent" class="dropdown-item">Pinnacle Recent</a> <a href="/v/team-tag" class="dropdown-item">Team Tag</a>
+          </div></li>
+         <li class="nav-item"><a href="/mm/pricing_table" class="nav-link"><i class="fe fe-dollar-sign"></i> Pricing</a></li>
+         <li class="nav-item"><a href="/docs/" class="nav-link"><i class="fe fe-book-open"></i> API</a></li>
+         <li class="nav-item dropdown"><a href="javascript:void(0)" class="nav-link soccer active" data-toggle="dropdown"> ⚽ Soccer </a>
+          <div class="dropdown-menu dropdown-menu-arrow">
+           <a href="/c/soccer" class="dropdown-item soccer active"> ⚽ Soccer </a> <a href="/c/cricket" class="dropdown-item cricket"> 🏏 Cricket </a> <a href="/c/rugby-union" class="dropdown-item rugby-union"> 🏉 Rugby Union </a> <a href="/c/american-football" class="dropdown-item american-football"> 🏈 American Football </a> <a href="/c/tennis" class="dropdown-item tennis"> 🎾 Tennis </a> <a href="/c/snooker" class="dropdown-item snooker"> 🎱 Snooker </a> <a href="/c/baseball" class="dropdown-item baseball"> ⚾ Baseball </a> <a href="/c/ice-hockey" class="dropdown-item ice-hockey"> 🏒 Ice Hockey </a> <a href="/c/basketball" class="dropdown-item basketball"> 🏀 Basketball </a> <a href="/c/rugby-league" class="dropdown-item rugby-league"> 🏉 Rugby League </a> <a href="/c/australian-rules" class="dropdown-item australian-rules"> 🏉 Australian Rules </a> <a href="/c/handball" class="dropdown-item handball"> 👋 Handball </a> <a href="/c/futsal" class="dropdown-item futsal"> ⚽ Futsal </a> <a href="/c/volleyball" class="dropdown-item volleyball"> 🏐 Volleyball </a> <a href="/c/table-tennis" class="dropdown-item table-tennis"> 🏓 Table Tennis </a> <a href="/c/badminton" class="dropdown-item badminton"> 🏸 Badminton </a> <a href="/c/esports" class="dropdown-item esports"> 🎮 Esports </a>
+          </div></li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="my-3 my-md-5">
+     <div class="container">
+      <div class="row g-2">
+       <div class="col-auto">
+        <div class="team_img">
+         <img src="https://assets.b365api.com/images/team/b/3115.png" alt="Widzew Lodz">
+        </div>
+       </div>
+       <div class="col">
+        <div class="float-right">
+         <a href="javascript: void(0)" data-subscribe="team_id=88" class="btn btn-danger">Subscribe</a>
+        </div>
+        <h1><span class="align-middle flag flag-pl"></span> Widzew Lodz</h1>
+        <dl class="row d-none d-lg-block">
+         <dt class="w-9r text-right float-left">
+          Leagues Played
+         </dt>
+         <dd class="ml-9r">
+          <a class="btn btn-sm btn-secondary mb-2" href="/tl/88-125/Widzew-Lodz-in-Poland-Ekstraklasa"> Poland Ekstraklasa <span class="badge bg-green ms-2">108</span> </a> <a class="btn btn-sm btn-secondary mb-2" href="/tl/88-186/Widzew-Lodz-in-Poland-I-Liga"> Poland I Liga <span class="badge bg-green ms-2">98</span> </a> <a class="btn btn-sm btn-secondary mb-2" href="/tl/88-113/Widzew-Lodz-in-Poland-II-Liga"> Poland II Liga <span class="badge bg-green ms-2">68</span> </a> <a class="btn btn-sm btn-secondary mb-2" href="/tl/88-31/Widzew-Lodz-in-Poland-III-Liga"> Poland III Liga <span class="badge bg-green ms-2">21</span> </a> <a class="btn btn-sm btn-secondary mb-2" href="/tl/88-1052/Widzew-Lodz-in-Poland-Cup"> Poland Cup <span class="badge bg-green ms-2">14</span> </a> <a class="btn btn-sm btn-secondary mb-2" href="/tl/88-13926/Widzew-Lodz-in-Club-Friendly-List"> Club Friendly List <span class="badge bg-green ms-2">6</span> </a>
+         </dd>
+         <dt class="w-9r text-right float-left">
+          Links
+         </dt>
+         <dd class="ml-9r">
+          <a class="btn btn-sm btn-secondary" href="https://widzew.com" target="_blank"> Website </a> <a class="btn btn-sm btn-secondary" href="https://www.facebook.com/widzew.ofi" target="_blank"> Facebook </a> <a class="btn btn-sm btn-secondary" href="https://twitter.com/RTS_Widzew_Lodz" target="_blank"> Twitter </a> <a class="btn btn-sm btn-secondary" href="https://www.instagram.com/rtswidzewlodz/" target="_blank"> Instagram </a> <a class="btn btn-sm btn-secondary" href="https://www.youtube.com/c/WidzewTV?sub_confirmation=1" target="_blank"> YouTube </a> <a class="btn btn-sm btn-secondary" href="https://www.tiktok.com/@rts_widzew_lodz" target="_blank"> TikTok </a> <a class="btn btn-sm btn-secondary" href="https://en.wikipedia.org/wiki/Widzew_Łódź" target="_blank"> Wikipedia </a>
+         </dd>
+         <dt class="w-9r text-right float-left">
+          Related Teams
+         </dt>
+         <dd class="ml-9r">
+          <a class="btn btn-sm btn-secondary" href="/t/712025/Widzew-Lodz-U19">Widzew Lodz U19</a> <a class="btn btn-sm btn-secondary" href="/t/843746/Widzew-Lodz-II">Widzew Lodz II</a>
+         </dd>
+        </dl>
+       </div>
+      </div>
+      <div class="card">
+       <div class="card-tabs text-center">
+        <a class="card-tabs-item" href="/t/88/Widzew-Lodz">Matches</a> <a class="card-tabs-item" href="/ts/88/Widzew-Lodz">Fixtures</a> <a class="card-tabs-item active" href="/te/88/Widzew-Lodz">Results</a> <a class="card-tabs-item" href="/tsd/88/Widzew-Lodz">Squad</a>
+       </div>
+      </div>
+      <div class="tab-content" style="margin-top: 10px">
+       <div class="tab-pane active">
+        <div class="row">
+         <table class="table table-sm">
+          <tbody>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-09-13T18:30:00Z">09/13 18:30</td>
+            <td>8</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3112.png" class="logo_s"> <sup>[9]</sup> <a href="/t/4978/GKS-Katowice">GKS Katowice</a> v Widzew Lodz <sup>[8]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_D">D</td>
+            <td><a href="/r/8311055/GKS-Katowice-vs-Widzew-Lodz"> 2-2 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/363/Europe-Friendlies">Europe Friendlies</a></td>
+            <td class="dt_n" data-dt="2024-09-05T10:00:00Z">09/05 10:00</td>
+            <td>-</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> Widzew Lodz v <a href="/t/9949/Wisla-Plock">Wisla Plock</a> <img src="https://assets.b365api.com/images/team/s/3122.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/8770275/Widzew-Lodz-vs-Wisla-Plock"> 3-0 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-09-01T18:15:00Z">09/01 18:15</td>
+            <td>7</td>
+            <td><img src="https://assets.b365api.com/images/team/s/7691.png" class="logo_s"> <sup>[8]</sup> <a href="/t/44074/Jagiellonia-Bialystok">Jagiellonia Bialystok</a> v Widzew Lodz <sup>[6]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/8311189/Jagiellonia-Bialystok-vs-Widzew-Lodz"> 1-0 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-08-23T16:00:00Z">08/23 16:00</td>
+            <td>6</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[8]</sup> Widzew Lodz v <a href="/t/5050/Radomiak-Radom">Radomiak Radom</a> <sup>[16]</sup> <img src="https://assets.b365api.com/images/team/s/7295.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/8311187/Widzew-Lodz-vs-Radomiak-Radom"> 3-2 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-08-17T18:15:00Z">08/17 18:15</td>
+            <td>5</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3117.png" class="logo_s"> <sup>[6]</sup> <a href="/t/43934/Pogon-Szczecin">Pogon Szczecin</a> v Widzew Lodz <sup>[5]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/8311180/Pogon-Szczecin-vs-Widzew-Lodz"> 2-0 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-08-11T18:15:00Z">08/11 18:15</td>
+            <td>4</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[2]</sup> Widzew Lodz v <a href="/t/44258/Slask-Wroclaw">Slask Wroclaw</a> <sup>[16]</sup> <img src="https://assets.b365api.com/images/team/s/3108.png" class="logo_s"></td>
+            <td class="badge_D">D</td>
+            <td><a href="/r/8311175/Widzew-Lodz-vs-Slask-Wroclaw"> 0-0 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-08-05T17:00:00Z">08/05 17:00</td>
+            <td>3</td>
+            <td><img src="https://assets.b365api.com/images/team/s/4901.png" class="logo_s"> <sup>[8]</sup> <a href="/t/9771/Cracovia-Krakow">Cracovia Krakow</a> v Widzew Lodz <sup>[7]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/8311164/Cracovia-Krakow-vs-Widzew-Lodz"> 1-3 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-07-27T18:15:00Z">07/27 18:15</td>
+            <td>2</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[11]</sup> Widzew Lodz v <a href="/t/479/Lech-Poznan">Lech Poznan</a> <sup>[4]</sup> <img src="https://assets.b365api.com/images/team/s/3121.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/8311163/Widzew-Lodz-vs-Lech-Poznan"> 2-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-07-22T17:00:00Z">07/22 17:00</td>
+            <td>1</td>
+            <td><img src="https://assets.b365api.com/images/team/s/38732.png" class="logo_s"> <sup>[11]</sup> <a href="/t/799/Stal-Mielec">Stal Mielec</a> v Widzew Lodz <sup>[12]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_D">D</td>
+            <td><a href="/r/8311156/Stal-Mielec-vs-Widzew-Lodz"> 1-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/363/Europe-Friendlies">Europe Friendlies</a></td>
+            <td class="dt_n" data-dt="2024-07-06T09:00:00Z">07/06 09:00</td>
+            <td>-</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> Widzew Lodz v <a href="/t/4863/Banik-Ostrava">Banik Ostrava</a> <img src="https://assets.b365api.com/images/team/s/2204.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/8449060/Widzew-Lodz-vs-Banik-Ostrava"> 2-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/363/Europe-Friendlies">Europe Friendlies</a></td>
+            <td class="dt_n" data-dt="2024-06-29T10:00:00Z">06/29 10:00</td>
+            <td>-</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> Widzew Lodz v <a href="/t/3768/Motor-Lublin">Motor Lublin</a> <img src="https://assets.b365api.com/images/team/s/7915.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/8415912/Widzew-Lodz-vs-Motor-Lublin"> 1-2 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/363/Europe-Friendlies">Europe Friendlies</a></td>
+            <td class="dt_n" data-dt="2024-06-22T10:00:00Z">06/22 10:00</td>
+            <td>-</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> Widzew Lodz v <a href="/t/4978/GKS-Katowice">GKS Katowice</a> <img src="https://assets.b365api.com/images/team/s/3112.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/8330271/Widzew-Lodz-vs-GKS-Katowice"> 3-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-05-25T15:30:00Z">05/25 15:30</td>
+            <td>34</td>
+            <td><img src="https://assets.b365api.com/images/team/s/7295.png" class="logo_s"> <sup>[13]</sup> <a href="/t/5050/Radomiak-Radom">Radomiak Radom</a> v Widzew Lodz <sup>[10]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/7090293/Radomiak-Radom-vs-Widzew-Lodz"> 1-3 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-05-19T15:30:00Z">05/19 15:30</td>
+            <td>33</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[11]</sup> Widzew Lodz v <a href="/t/479/Lech-Poznan">Lech Poznan</a> <sup>[6]</sup> <img src="https://assets.b365api.com/images/team/s/3121.png" class="logo_s"></td>
+            <td class="badge_D">D</td>
+            <td><a href="/r/7021638/Widzew-Lodz-vs-Lech-Poznan"> 1-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-05-12T13:00:00Z">05/12 13:00</td>
+            <td>32</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[8]</sup> Widzew Lodz v <a href="/t/9948/Zaglebie-Lubin">Zaglebie Lubin</a> <sup>[11]</sup> <img src="https://assets.b365api.com/images/team/s/3113.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/6994657/Widzew-Lodz-vs-Zaglebie-Lubin"> 1-3 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-05-05T10:30:00Z">05/05 10:30</td>
+            <td>31</td>
+            <td><img src="https://assets.b365api.com/images/team/s/7922.png" class="logo_s"> <sup>[14]</sup> <a href="/t/6089/Warta-Poznan">Warta Poznan</a> v Widzew Lodz <sup>[8]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/6953955/Warta-Poznan-vs-Widzew-Lodz"> 2-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-04-27T18:00:00Z">04/27 18:00</td>
+            <td>30</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[8]</sup> Widzew Lodz v <a href="/t/46697/Rakow-Czestochowa">Rakow Czestochowa</a> <sup>[7]</sup> <img src="https://assets.b365api.com/images/team/s/35268.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/6910897/Widzew-Lodz-vs-Rakow-Czestochowa"> 0-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-04-20T15:30:00Z">04/20 15:30</td>
+            <td>29</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3105.png" class="logo_s"> <sup>[18]</sup> <a href="/t/976/Ruch-Chorzow">Ruch Chorzow</a> v Widzew Lodz <sup>[8]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/6774472/Ruch-Chorzow-vs-Widzew-Lodz"> 2-3 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-04-13T13:00:00Z">04/13 13:00</td>
+            <td>28</td>
+            <td><img src="https://assets.b365api.com/images/team/s/38732.png" class="logo_s"> <sup>[9]</sup> <a href="/t/799/Stal-Mielec">Stal Mielec</a> v Widzew Lodz <sup>[8]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_D">D</td>
+            <td><a href="/r/6850053/Stal-Mielec-vs-Widzew-Lodz"> 0-0 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-04-07T10:30:00Z">04/07 10:30</td>
+            <td>27</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[9]</sup> Widzew Lodz v <a href="/t/480/Piast-Gliwice">Piast Gliwice</a> <sup>[13]</sup> <img src="https://assets.b365api.com/images/team/s/7918.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/6775586/Widzew-Lodz-vs-Piast-Gliwice"> 1-0 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-04-01T15:30:00Z">04/01 15:30</td>
+            <td>26</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[10]</sup> Widzew Lodz v <a href="/t/22452/Korona-Kielce">Korona Kielce</a> <sup>[16]</sup> <img src="https://assets.b365api.com/images/team/s/5065.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/6775578/Widzew-Lodz-vs-Korona-Kielce"> 3-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/363/Europe-Friendlies">Europe Friendlies</a></td>
+            <td class="dt_n" data-dt="2024-03-22T10:30:00Z">03/22 10:30</td>
+            <td>-</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> Widzew Lodz v <a href="/t/16222/Gornik-Leczna">Gornik Leczna</a> <img src="https://assets.b365api.com/images/team/s/3125.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/7995194/Widzew-Lodz-vs-Gornik-Leczna"> 4-2 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-03-16T11:30:00Z">03/16 11:30</td>
+            <td>25</td>
+            <td><img src="https://assets.b365api.com/images/team/s/4901.png" class="logo_s"> <sup>[14]</sup> <a href="/t/9771/Cracovia-Krakow">Cracovia Krakow</a> v Widzew Lodz <sup>[10]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_D">D</td>
+            <td><a href="/r/6775567/Cracovia-Krakow-vs-Widzew-Lodz"> 2-2 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-03-10T16:30:00Z">03/10 16:30</td>
+            <td>24</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[11]</sup> Widzew Lodz v <a href="/t/977/Legia-Warsaw">Legia Warsaw</a> <sup>[6]</sup> <img src="https://assets.b365api.com/images/team/s/3106.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/6775566/Widzew-Lodz-vs-Legia-Warsaw"> 1-0 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-03-02T16:30:00Z">03/02 16:30</td>
+            <td>23</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3108.png" class="logo_s"> <sup>[2]</sup> <a href="/t/44258/Slask-Wroclaw">Slask Wroclaw</a> v Widzew Lodz <sup>[9]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/6775560/Slask-Wroclaw-vs-Widzew-Lodz"> 2-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/1052/Poland-Cup">Poland Cup</a></td>
+            <td class="dt_n" data-dt="2024-02-28T19:30:00Z">02/28 19:30</td>
+            <td>3</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3111.png" class="logo_s"> <a href="/t/44075/Wisla-Krakow">Wisla Krakow</a> v Widzew Lodz <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/7570415/Wisla-Krakow-vs-Widzew-Lodz"> 2-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-02-25T14:00:00Z">02/25 14:00</td>
+            <td>22</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[12]</sup> Widzew Lodz v <a href="/t/45588/Gornik-Zabrze">Gornik Zabrze</a> <sup>[7]</sup> <img src="https://assets.b365api.com/images/team/s/3110.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/6775551/Widzew-Lodz-vs-Gornik-Zabrze"> 3-1 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-02-18T16:30:00Z">02/18 16:30</td>
+            <td>21</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3123.png" class="logo_s"> <sup>[18]</sup> <a href="/t/810/LKS-Lodz">LKS Lodz</a> v Widzew Lodz <sup>[14]</sup> <img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"></td>
+            <td class="badge_W">W</td>
+            <td><a href="/r/6774460/LKS-Lodz-vs-Widzew-Lodz"> 0-2 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/125/Poland-Ekstraklasa">Poland Ekstraklasa</a></td>
+            <td class="dt_n" data-dt="2024-02-11T14:00:00Z">02/11 14:00</td>
+            <td>20</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> <sup>[13]</sup> Widzew Lodz v <a href="/t/44074/Jagiellonia-Bialystok">Jagiellonia Bialystok</a> <sup>[2]</sup> <img src="https://assets.b365api.com/images/team/s/7691.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/6775540/Widzew-Lodz-vs-Jagiellonia-Bialystok"> 1-3 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+           <tr>
+            <td class="league_n"><a href="/l/13926/Club-Friendly-List">Club Friendly List</a></td>
+            <td class="dt_n" data-dt="2024-01-31T14:00:00Z">01/31 14:00</td>
+            <td>-</td>
+            <td><img src="https://assets.b365api.com/images/team/s/3115.png" class="logo_s"> Widzew Lodz v <a href="/t/763/Slovan-Liberec">Slovan Liberec</a> <img src="https://assets.b365api.com/images/team/s/2219.png" class="logo_s"></td>
+            <td class="badge_L">L</td>
+            <td><a href="/r/7769956/Widzew-Lodz-vs-Slovan-Liberec"> 0-2 </a></td>
+            <td><a href="/login"><i class="fa text-danger fa-heart-o"></i></a> <a href="/login"><i class="fa fa-sticky-note-o"></i></a></td>
+           </tr>
+          </tbody>
+         </table>
+         <div class="pagination-centered">
+          <ul class="pagination">
+           <li class="page-item active"><a class="page-link" href="/te/88/Widzew-Lodz/p.1">1</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.2">2</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.3">3</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.4">4</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.5">5</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.6">6</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.7">7</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.8">8</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.9">9</a></li>
+           <li class="page-item"><a class="page-link" href="">...</a></li>
+           <li class="page-item"><a class="page-link" href="/te/88/Widzew-Lodz/p.12">12</a></li>
+           <li class="page-item page-next"><a class="page-link" href="/te/88/Widzew-Lodz/p.2" rel="next">Next »</a></li>
+          </ul>
+         </div>
+        </div>
+        <div class="card">
+         <div class="card-status bg-yellow"></div>
+         <div class="card-header">
+          <h3 class="card-title">Wikipedia - <a href="https://en.wikipedia.org/wiki/Widzew_Łódź" target="_blank">Widzew Łódź</a></h3>
+         </div>
+         <div class="card-body">
+          <p><b>RTS Widzew Łódź</b> (<span>Polish pronunciation:</span> <span lang="pl-Latn-fonipa">[ˈɛr<span> </span>ˈtɛ<span> </span>ˈɛs<span> </span>ˈvʲidzɛf<span> </span>ˈwut͡ɕ]</span>) is a Polish football club based in Łódź. The club was founded in 1910. Its official colours are red and white, hence their nicknames <i>Czerwona Armia</i> (Red Army) and <i>Czerwono-biało-czerwoni</i> (Red-white-reds). They compete in the Ekstraklasa, the top tier of the Polish football league system, since the 2022-23 season.</p>
+         </div>
+        </div>
+        <div class="card">
+         <div class="card-status bg-yellow"></div>
+         <div class="card-header">
+          <h3 class="card-title">History</h3>
+         </div>
+         <div class="card-body wikipedia-body">
+          <div class="mw-content-ltr mw-parser-output" dir="ltr" lang="en">
+           <div class="mw-heading mw-heading2"></div>
+           <table class="box-Expand_section plainlinks metadata ambox mbox-small-left ambox-content" role="presentation">
+            <tbody>
+             <tr>
+              <td class="mbox-image"><span typeof="mw:File"></span></td>
+              <td class="mbox-text">
+               <div class="mbox-text-span">
+                This section <b>needs expansion</b>. You can help by adding to it. <span class="date-container"><i>(<span class="date">June 2016</span>)</i></span>
+               </div></td>
+             </tr>
+            </tbody>
+           </table>
+           <figure class="mw-default-size mw-halign-left" typeof="mw:File/Thumb">
+            <figcaption>
+             Widzew membership card from 1914
+            </figcaption>
+           </figure>
+           <p>The club was founded in 1910 as <i>Towarzystwo Miłośników Rozwoju Fizycznego Widzew (Society of Physical Development Fans Widzew)</i>. Its name comes from the name of the city district Widzew, while RTS stands for Workers' Sports Association (in Polish <i>Robotnicze Towarzystwo Sportowe</i>). The club was founded by Polish workers and German industrialists who were employees of the Widzew textile manufactory called WIMA. Initially, the club was called the Widzew Association for Physical Development (in Polish: Towarzystwo Miłośników Rozwoju Fizycznego Widzew) because at that time Łódź was under the rule of the Russian Tsar and the adjective "workers'" (in Polish: Robotniczy) could not be used in the club's name. The club's mottos are Together We Create Power (in Polish <i>Razem Tworzymy Siłę</i>) and Always 12 (in Polish <i>Zawsze w 12</i>) which is meant to suggest that its fans are the twelfth player on the team. The club plays its matches at its stadium, located in Łódź at 138 Marszałka Józefa Piłsudskiego Avenue. The stadium bears the unofficial but commonly used name of the Heart of Łódź (in Polish <i>Serce Łodzi</i>).</p>
+           <p>After the First World War, Poland regained its independence and the club was reactivated in 1922 as <i>Robotnicze Towarzystwo Sportowe Widzew Łódź (Workers' Sports Association Widzew Łódź).</i></p>
+           <p>During World War II, three pre-war players of Widzew Łódź, Joachim Schreer, Mirosław Wągrowski and Aleksander Żadziłko, were among Poles murdered by the Russians in the large Katyn massacre in April–May 1940.</p>
+           <p>Widzew has won four Polish league championships, in 1980–81, 1981–82, 1995–96 and 1996–97, as well as the 1985 Polish Cup.</p>
+           <p>After winning back-to-back championships in 1980–81 and 1981–82, Widzew reclaimed the league crown 14 years later after a record season once again. During the successful 1995–96 season, Widzew conceded only 22 goals in 34 matches, the least out of all teams in the league. They were also proficient in attack, scoring 84 goals and securing 88 points across the campaign. Thanks in part to the great performance of their goalkeeper Andrzej Woźniak, the team remained unbeaten for the whole season.</p>
+           <figure class="mw-default-size" typeof="mw:File/Thumb">
+            <figcaption>
+             1996–97 Polish Championship trophy for Widzew
+            </figcaption>
+           </figure>
+           <p>In the following 1996–97 season, the team enjoyed another great season. For the second time in the club's history, they secured back-to-back championships, scoring 74 goals across the season and conceding only 21.</p>
+           <p>They have appeared in 117 matches in European Cups, of which they won 42. Widzew knocked European giants Manchester United out of the 1980–81 UEFA Cup, although their biggest achievement was reaching the semi-final of the 1982–83 European Cup, eliminating then three-time winners Liverpool along the way.</p>
+           <div class="mw-heading mw-heading3">
+            <h4>Recent history</h4>
+           </div>
+           <p>At the beginning of the 2007–08 season, Widzew was purchased by one of the wealthiest men in Poland, Sylwester Cacek.</p>
+           <p>In January 2008, while playing in the second division, the Polish Football Association ruled that Widzew Łódź should be relegated due to their involvement in a corruption scandal. However, Widzew became champions that year and were allowed to stay in the second division, which was renamed I liga before the start of the 2008-09 season. Despite being deducted six points as a penalty, Widzew won the I Liga again in the 2009-10 season, and were promoted to the Ekstraklasa. However, Widzew were once again relegated at the end of the 2013–14 season after four seasons.</p>
+           <p>Due to financial problems, Widzew finished last at the end of the 2014–15 season, and subsequently went bankrupt.</p>
+           <p>Local businessmen Marcin Ferdzyn and Grzegorz Waranecki decided to take on amateur status as a new association called <i>Stowarzyszenie Reaktywacja Tradycji Sportowych Widzew Łódź (Association of the Reactivation of the Sports Traditions of Widzew Łódź)</i>, which continues the tradition of the old RTS Widzew Łódź. The new association was registered in a Polish court on 2 July 2015, and within a few weeks of summer 2015, they managed to hire a new coach Witold Obarek and gather a new roster, which started the 2015–16 season in the fifth tier of Polish football. In their first season in IV liga, Widzew won promotion. In the 2016–17 season, Widzew achieved third place in III liga, behind Drwęca Nowe Miasto Lubawskie and ŁKS Łódź, but next season yielded promotion to II liga. In the 2018–19 season, they finished in fifth place with 55 points. In the 2021–22 season, Widzew finished 2nd, one point ahead of Arka Gdynia, and returned to Ekstraklasa for the first time since the 2013–14 season.</p>
+          </div>
+         </div>
+        </div>
+        <div class="card">
+         <div class="card-status bg-blue"></div>
+         <div class="card-body">
+          Widzew Lodz is a professional soccer team based in Lodz, Poland. The team was founded in 1910 and has a rich history in Polish football. Widzew Lodz has a passionate fan base and plays their home matches at the Stadion Widzewa, which has a capacity of over 18,000 spectators.
+          <br>
+          <br>
+           The team has a long-standing rivalry with fellow Lodz-based team, LKS Lodz, and matches between the two clubs are always highly anticipated by fans. Widzew Lodz has had success in domestic competitions, winning multiple Polish league titles and Polish Cup trophies throughout their history.
+          <br>
+          <br>
+           Known for their attacking style of play and strong team spirit, Widzew Lodz has produced many talented players who have gone on to represent the Polish national team. The team continues to be a competitive force in Polish football and strives to bring success to their loyal supporters.
+         </div>
+        </div>
+        <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "SportsTeam",
+  "name": "Widzew Lodz",
+  "sport": "Soccer",
+    "image": "https://assets.b365api.com/images/team/b/3115.png",
+    "identifier": "88",
+  "url": "https://betsapi.com/t/88/Widzew-Lodz"
+}
+</script>
+        <hr>
+        <div class="alert alert-info" role="alert">
+         We're selling <a href="/docs/">API</a>, please <a href="/contactus">Contact Us</a>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="footer">
+      <div class="container">
+       <div class="row">
+        <div class="col-lg-8">
+         <div class="row">
+          <div class="col-6 col-md-3">
+           <ul class="list-unstyled mb-0">
+            <li><a href="/contactus">Contact Us</a></li>
+            <li><a href="https://betsapi.com/docs/" target="_blank">API</a></li>
+           </ul>
+          </div>
+          <div class="col-6 col-md-3">
+           <ul class="list-unstyled mb-0">
+            <li><a href="https://www.facebook.com/bsportsfan/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="https://twitter.com/score366" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <div class="col-lg-4 mt-4 mt-lg-0">
+         <select id="timezone_picker" class="form-control form-control-sm hide"> <option value="UTC">UTC</option> </select>
+        </div>
+       </div>
+      </div>
+     </div>
+     <footer class="footer">
+      <div class="container">
+       <div class="row align-items-center flex-row-reverse">
+        <div class="col-auto ml-lg-auto">
+         <div class="row align-items-center">
+          <div class="col-auto">
+           <ul class="list-inline list-inline-dots mb-0">
+            <li class="list-inline-item"><a href="/p/privacy">Privacy Policy</a></li>
+            <li class="list-inline-item"><a href="/p/tos">Terms of Service</a></li>
+            <li class="list-inline-item"><img src="https://assets.betsapi.com/images/ico/18.svg"></li>
+           </ul>
+          </div>
+         </div>
+        </div>
+        <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+         Copyright © 2024
+        </div>
+       </div>
+      </div>
+     </footer>
+    </div><!-- Cookie Consent -->
+    <div class="fixed-bottom alert alert-info" role="alert" id="cookie_consent" style="display:none;">
+     <p>This website stores data such as cookies to enable site functionality including analytics and personalization. By using this website, you automatically accept that we use cookies.
+      <button type="button" class="btn btn-light float-right" id="btnAccept">Accept</button></p>
+    </div>
+    <script src="https://assets.betsapi.com/v2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://assets.betsapi.com/v2/js/moment.min.js"></script>
+    <script src="https://assets.betsapi.com/v2/js/moment-timezone.min.js"></script>
+    <script src="https://assets.betsapi.com/v2/js/js.cookie.min.js?_=1"></script>
+    <script src="https://assets.betsapi.com/v2/js/reconnecting-websocket.min.js"></script>
+    <script src="https://assets.betsapi.com/v2/js/app.js?_=10"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LTT3CXFKZ"></script>
+    <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-1LTT3CXFKZ');
+</script>
+    <script data-cfasync="false" type="text/javascript" id="clever-core">
+  /* <![CDATA[ */
+  (function (document, window) {
+    var a, c = document.createElement("script"), f = window.frameElement;
+
+        c.id = "CleverCoreLoader74232";
+    c.src = "https://scripts.cleverwebserver.com/e9ff4d75e5f009d75101694ff6f1f80a.js";
+
+    c.async = !0;
+    c.type = "text/javascript";
+    c.setAttribute("data-target", window.name || (f && f.getAttribute("id")));
+    c.setAttribute("data-callback", "put-your-callback-function-here");
+    c.setAttribute("data-callback-url-click", "put-your-click-macro-here");
+    c.setAttribute("data-callback-url-view", "put-your-view-macro-here");
+
+    try {
+        a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+      } catch (e) {
+        a = !1;
+      }
+
+      a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+      a.parentNode.insertBefore(c, a);
+    })(document, window);
+    /* ]]> */
+  </script><!-- clevernt / PL -->
+   </div>
+  </div>
+ </body>
+</html>

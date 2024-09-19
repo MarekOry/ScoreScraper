@@ -1,22 +1,16 @@
 package pl.marek.scorescraper.scrapeResults;
 
 import java.util.List;
+import java.util.Objects;
 
-public class LeagueTable{
-    private final String leagueName;
-    private final List<LeagueClubPosition> leagueClubPositions;
+public record LeagueTable(String leagueName, List<LeagueClubPosition> leagueClubPositions) {
 
-    public LeagueTable(String leagueName, List<LeagueClubPosition> leagueClubPositions) {
-        this.leagueName = leagueName;
-        this.leagueClubPositions = leagueClubPositions;
-    }
-
-    public String getLeagueName() {
-        return leagueName;
-    }
-
-    public List<LeagueClubPosition> getLeagueClubPositions() {
-        return leagueClubPositions;
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LeagueTable that = (LeagueTable) o;
+        return Objects.equals(leagueName, that.leagueName) && Objects.equals(leagueClubPositions, that.leagueClubPositions);
     }
 
     @Override

@@ -38,7 +38,7 @@ class DataInitializer implements ApplicationListener<ContextRefreshedEvent> {
         for (ScrapeableLink scrapeableLink : leagues) {
             createScrapeableLinkIfNotFound(scrapeableLink);
         }
-        List<ScrapeableLink> clubResultsLinks = createClubLinks();
+        List<ScrapeableLink> clubResultsLinks = createClubLinksFromClubResultsHtmlExample();
         for (ScrapeableLink scrapeableLink : clubResultsLinks) {
             createScrapeableLinkIfNotFound(scrapeableLink);
         }
@@ -55,8 +55,7 @@ class DataInitializer implements ApplicationListener<ContextRefreshedEvent> {
         return scrapeableLink;
     }
 
-    //todo add source data of scrapable links for club results
-    private List<ScrapeableLink> createClubLinks() {
+    private List<ScrapeableLink> createClubLinksFromClubResultsHtmlExample() {
         try {
             List<ScrapeableLink> clubLinks = new ArrayList<>();
             Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");

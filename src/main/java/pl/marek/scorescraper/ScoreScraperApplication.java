@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import pl.marek.scorescraper.scrapeResults.ClubResults;
 import pl.marek.scorescraper.scrapeResults.LeagueTable;
 import pl.marek.scorescraper.scraper.ScrapeTableStrategy;
-import pl.marek.scorescraper.scraper.ScrapeTeamResultsStrategy;
+import pl.marek.scorescraper.scraper.ScrapeClubResultsStrategy;
 import pl.marek.scorescraper.scraper.ScraperStrategy;
 import pl.marek.scorescraper.scraper.ScraperUtil;
 
@@ -20,14 +20,14 @@ public class ScoreScraperApplication {
         log.info("Application started.");
 
         String urlLeague = "https://betsapi.com/lt/125/Poland-Ekstraklasa";
-        String urlTeamResults = "https://betsapi.com/te/88/Widzew-Lodz";
+        String urlClubResults = "https://betsapi.com/te/88/Widzew-Lodz";
 
 
         ScraperStrategy<LeagueTable> tableScraper = new ScrapeTableStrategy();
 //        tableScraper.scrape(ScraperUtil.getDocumentFromUrl(urlLeague));
 
-        ScraperStrategy<ClubResults> teamResultsScraper = new ScrapeTeamResultsStrategy();
-//        teamResultsScraper.scrape(ScraperUtil.getDocumentFromUrl(urlTeamResults));
+        ScraperStrategy<ClubResults> teamResultsScraper = new ScrapeClubResultsStrategy();
+//        teamResultsScraper.scrape(ScraperUtil.getDocumentFromUrl(urlClubResults));
 
     }
 }

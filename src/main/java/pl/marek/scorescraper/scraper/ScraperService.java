@@ -19,33 +19,33 @@ public class ScraperService {
         this.scrapeableLinkRepository = scrapeableLinkRepository;
     }
 
-    public LeagueTable scrapeLeagueTable(String leagueName) {
-        ScrapeableLink leagueToScrape = getScrapeableLink(leagueName);
-        String link = leagueToScrape.getLink();
-
-        log.info("Getting html document from {}", link);
-        Document documentFromUrl = ScraperUtil.getDocumentFromUrl(link);
+    public LeagueTable scrapeLeagueTable(String name) {
+        Document documentFromUrl = getHtml(name);
 
         ScraperStrategy<LeagueTable> scraper = new ScrapeTableStrategy();
-        log.info("Scraping the information about {}", leagueName);
+        log.info("Scraping the information about {}", name);
         return scraper.scrape(documentFromUrl);
     }
 
-    public ClubResults scrapeClubResults(String clubName) {
-        ScrapeableLink leagueToScrape = getScrapeableLink(clubName);
-        String link = leagueToScrape.getLink();
+    public ClubResults scrapeClubResults(String name) {
+        Document documentFromUrl = getHtml(name);
 
-        log.info("Getting html document from {}", link);
-        Document documentFromUrl = ScraperUtil.getDocumentFromUrl(link);
-
-        ScraperStrategy<ClubResults> scraper = new ScrapeTeamResultsStrategy();
-        log.info("Scraping the information about {}", clubName);
+        ScraperStrategy<ClubResults> scraper = new ScrapeClubResultsStrategy();
+        log.info("Scraping the information about {}", name);
         return  scraper.scrape(documentFromUrl);
     }
 
-    private ScrapeableLink getScrapeableLink(String leagueName) {
+    private Document getHtml(String name) {
+        ScrapeableLink leagueToScrape = getScrapeableLink(name);
+        String link = leagueToScrape.getLink();
+
+        log.info("Getting html document from {}", link);
+        return ScraperUtil.getDocumentFromUrl(link);
+    }
+
+    private ScrapeableLink getScrapeableLink(String name) {
         return scrapeableLinkRepository.findAll().stream()
-                .filter(league -> leagueName.equals(league.getName()))
+                .filter(scrapeableLink -> name.equals(scrapeableLink.getName()))
                 .findFirst()
                 .orElseThrow(LinkNotFoundException::new);
     }

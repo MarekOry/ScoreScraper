@@ -2,6 +2,7 @@ package pl.marek.scorescraper.scraper;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
 import pl.marek.scorescraper.scrapeResults.LeagueClubPosition;
@@ -13,23 +14,27 @@ import java.nio.file.Paths;
 
 class ScrapeTableStrategyTest {
 
-    @Test
-    public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlExampleThenProperResultSize() throws IOException {
-        //Given
+    private static Document document;
+
+    @BeforeAll
+    public static void init() throws IOException{
         Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");
-        Document document = Jsoup.parse(html, "UTF-8", "http://test.com/");
+        ScrapeTableStrategyTest.document = Jsoup.parse(html, "UTF-8", "http://test.com/");
+    }
+
+    @Test
+    public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlThenProperResultSize() {
+        //Given
         //When
         ScraperStrategy<LeagueTable> scraperStrategy = new ScrapeTableStrategy();
         LeagueTable scraped = scraperStrategy.scrape(document);
         //Then
-        Assertions.assertEquals(18, scraped.getLeagueClubPositions().size());
+        Assertions.assertEquals(18, scraped.leagueClubPositions().size());
     }
 
     @Test
-    public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlExampleThenFirstResultCorrect() throws IOException {
+    public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlThenFirstResultCorrect() {
         //Given
-        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");
-        Document document = Jsoup.parse(html, "UTF-8", "http://test.com/");
         //When
         ScraperStrategy<LeagueTable> scraperStrategy = new ScrapeTableStrategy();
         LeagueTable scraped = scraperStrategy.scrape(document);
@@ -43,14 +48,12 @@ class ScrapeTableStrategyTest {
                 .setPoints(16)
                 .build();
         //Then
-        Assertions.assertEquals(expected, scraped.getLeagueClubPositions().get(0));
+        Assertions.assertEquals(expected, scraped.leagueClubPositions().get(0));
     }
 
     @Test
-    public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlExampleThenLastResultCorrect() throws IOException {
+    public void givenNewScrapeTableStrategyWhenScrapingFromGivenHtmlThenLastResultCorrect() {
         //Given
-        Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");
-        Document document = Jsoup.parse(html, "UTF-8", "http://test.com/");
         //When
         ScraperStrategy<LeagueTable> scraperStrategy = new ScrapeTableStrategy();
         LeagueTable scraped = scraperStrategy.scrape(document);
@@ -64,6 +67,16 @@ class ScrapeTableStrategyTest {
                 .setPoints(4)
                 .build();
         //Then
-        Assertions.assertEquals(expected, scraped.getLeagueClubPositions().get(17));
+        Assertions.assertEquals(expected, scraped.leagueClubPositions().get(17));
+    }
+
+    @Test
+    public void givenNewScrapeClubResultsStrategyWhenScrapingFromGivenHtmlThenLeagueNameCorrect() {
+        //Given
+        //When
+        ScraperStrategy<LeagueTable> scraperStrategy = new ScrapeTableStrategy();
+        LeagueTable scraped = scraperStrategy.scrape(document);
+        //Then
+        Assertions.assertEquals("Poland Ekstraklasa", scraped.leagueName());
     }
 }

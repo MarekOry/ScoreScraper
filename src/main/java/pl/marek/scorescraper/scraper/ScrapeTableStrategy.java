@@ -1,7 +1,5 @@
 package pl.marek.scorescraper.scraper;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
 import pl.marek.scorescraper.scrapeResults.LeagueClubPosition;
@@ -10,19 +8,15 @@ import pl.marek.scorescraper.scrapeResults.LeagueTable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class ScrapeTableStrategy implements ScraperStrategy<LeagueTable>{
-    private static final Logger log = LogManager.getLogger(ScrapeTableStrategy.class);
+public class ScrapeTableStrategy implements ScraperStrategy<LeagueTable> {
 
     @Override
     public LeagueTable scrape(Document document) {
-        String leagueName = document.select("#overall > div:nth-child(1) > div > div > h3").text();
+        String leagueName = document.select("body > div > div > div.my-3.my-md-5 > div.container > div.row.g-2 > div.col > h1").text();
         Elements leaderboard = document.select("#overall > div:nth-child(1) > div > table> tbody >tr");
 
         List<LeagueClubPosition> leagueClubPositions = getLeagueClubPositions(leaderboard);
-        LeagueTable leagueTable = new LeagueTable(leagueName, leagueClubPositions);
-
-        log.info(leagueTable);
-        return leagueTable;
+        return new LeagueTable(leagueName, leagueClubPositions);
     }
 
     private List<LeagueClubPosition> getLeagueClubPositions(Elements leaderboard) {

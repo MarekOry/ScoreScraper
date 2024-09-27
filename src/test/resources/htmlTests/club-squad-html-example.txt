@@ -1,0 +1,543 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <title>Widzew Lodz Squad - Soccer - BetsAPI</title>
+  <meta name="keywords" content="Widzew Lodz, Squad, Soccer">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <link rel="shortcut icon" href="https://assets.betsapi.com/favicon.ico" type="image/x-icon">
+  <link href="/opensearch.xml" title="BetsAPI Search" rel="search" type="application/opensearchdescription+xml">
+  <link rel="stylesheet" href="https://assets.betsapi.com/v2/css/font-awesome.css">
+  <link rel="stylesheet" href="https://assets.betsapi.com/v2/css/tabler.css?_=3">
+  <link rel="stylesheet" href="https://assets.betsapi.com/v2/css/app.css?_=21">
+  <link rel="canonical" href="https://betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" href="https://betsapi.com/tsd/88/Widzew-Lodz" hreflang="x-default">
+  <link rel="alternate" hreflang="en" href="https://betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="zh-CN" href="https://cn.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="zh-TW" href="https://tw.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="es" href="https://es.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="de" href="https://de.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="pt" href="https://pt.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="sv" href="https://se.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="it" href="https://it.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ja" href="https://jp.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ko" href="https://kr.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="fr" href="https://fr.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ru" href="https://ru.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="da" href="https://dk.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="no" href="https://no.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="bg" href="https://bg.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="el" href="https://gr.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="pl" href="https://pl.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="ro" href="https://ro.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="cs" href="https://cz.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="hu" href="https://hu.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="sk" href="https://sk.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="nl" href="https://nl.betsapi.com/tsd/88/Widzew-Lodz">
+  <link rel="alternate" hreflang="et" href="https://ee.betsapi.com/tsd/88/Widzew-Lodz">
+  <script>
+window.FL = {
+  "csrf_token": "66ed6e72e6273",
+  "lng_id": 1,
+  "sport_id": 1};
+</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3090818643673582" crossorigin="anonymous"></script>
+  <script src="https://assets.betsapi.com/v2/js/jquery.min.js"></script>
+ </head>
+ <body>
+  <!-- <ins class='hstpnetworkads' style='display: none; width: 300px; height: 600px'></ins> -->
+  <div class="page">
+   <div class="page-main">
+    <div class="header py-4">
+     <div class="container">
+      <div class="d-flex">
+       <a class="header-brand" href="/" style="font-size:200%"> <span style="color:#5F6E37">Bets</span><span style="color:#C18C00">API</span> </a>
+       <div class="d-flex order-lg-2 ml-auto">
+        <div class="d-flex order-lg-2 ml-auto">
+         <div class="dropdown d-none d-md-flex">
+          <a class="nav-link" data-toggle="dropdown"> <i class="fa fa-language"></i>&nbsp;English </a>
+          <div class="dropdown-menu dropdown-menu-right dropdown-menu-arrow">
+           <a href="https://betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">English</a> <a href="https://cn.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">简体中文</a> <a href="https://tw.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">繁體中文</a> <a href="https://es.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Español</a> <a href="https://de.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Deutsch</a> <a href="https://pt.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Português</a> <a href="https://it.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Italiano</a> <a href="https://jp.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">日本語</a> <a href="https://kr.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">한국어</a> <a href="https://fr.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Français</a> <a href="https://ru.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Русский</a> <a href="https://se.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Svenska</a> <a href="https://dk.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Dansk</a> <a href="https://no.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Norsk</a> <a href="https://bg.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Български</a> <a href="https://gr.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Ελληνικά</a> <a href="https://pl.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Polski</a> <a href="https://ro.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Română</a> <a href="https://cz.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Česky</a> <a href="https://hu.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Magyar</a> <a href="https://sk.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Slovenčina</a> <a href="https://nl.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Nederlands</a> <a href="https://ee.betsapi.com/tsd/88/Widzew-Lodz" class="dropdown-item text-center">Eesti</a>
+          </div>
+         </div>
+         <div class="nav-item d-none d-md-flex">
+          <a href="https://betsapi.com/login" class="btn btn-sm btn-outline-primary">Login</a>
+         </div>
+        </div><a href="#" class="header-toggler d-lg-none ml-3 ml-lg-0" data-toggle="collapse" data-target="#headerMenuCollapse"> <span class="header-toggler-icon"></span> </a>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="header collapse d-lg-flex p-0" id="headerMenuCollapse">
+     <div class="container">
+      <div class="row align-items-center">
+       <div class="col-lg-3 ml-auto">
+        <form action="/search/" class="input-icon my-3 my-lg-0">
+         <input type="hidden" name="sport_id" value="1"> <input type="search" name="q" class="form-control header-search" placeholder="Search…" tabindex="1">
+         <div class="input-icon-addon">
+          <i class="fa fa-search"></i>
+         </div>
+        </form>
+       </div>
+       <div class="col-lg order-lg-first">
+        <ul class="nav nav-tabs border-0 flex-column flex-lg-row">
+         <li class="nav-item"><a href="/" class="nav-link"><i class="fe fe-play"></i> In Play</a></li>
+         <li class="nav-item"><a href="/s/" class="nav-link"><i class="fe fe-calendar"></i> Fixtures</a></li>
+         <li class="nav-item"><a href="/e/" class="nav-link"><i class="fa fa-calendar-check-o"></i> Results</a></li>
+         <li class="nav-item"><a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fe fe-box"></i> More</a>
+          <div class="dropdown-menu dropdown-menu-arrow">
+           <a href="/cd/soccer" class="dropdown-item">Data</a> <a href="https://play.google.com/store/apps/details?id=com.bsportsfan.app" target="_blank" rel="noopener noreferrer" class="dropdown-item">Google Play</a>
+          </div></li>
+         <li class="nav-item dropdown"><a href="javascript:void(0)" class="nav-link" data-toggle="dropdown"><i class="fa fa-plane"></i> VIP</a>
+          <div class="dropdown-menu dropdown-menu-arrow">
+           <a href="/mm/vip" class="dropdown-item">Buy VIP</a> <a href="/v/dropping-odds" class="dropdown-item">Dropping Odds</a> <a href="/v/gone-odds" class="dropdown-item">Gone Odds</a> <a href="/v/bet365-recent" class="dropdown-item">Bet365 Recent</a> <a href="/v/pinnaclesports-recent" class="dropdown-item">Pinnacle Recent</a> <a href="/v/team-tag" class="dropdown-item">Team Tag</a>
+          </div></li>
+         <li class="nav-item"><a href="/mm/pricing_table" class="nav-link"><i class="fe fe-dollar-sign"></i> Pricing</a></li>
+         <li class="nav-item"><a href="/docs/" class="nav-link"><i class="fe fe-book-open"></i> API</a></li>
+         <li class="nav-item dropdown"><a href="javascript:void(0)" class="nav-link soccer active" data-toggle="dropdown"> ⚽ Soccer </a>
+          <div class="dropdown-menu dropdown-menu-arrow">
+           <a href="/c/soccer" class="dropdown-item soccer active"> ⚽ Soccer </a> <a href="/c/cricket" class="dropdown-item cricket"> 🏏 Cricket </a> <a href="/c/rugby-union" class="dropdown-item rugby-union"> 🏉 Rugby Union </a> <a href="/c/american-football" class="dropdown-item american-football"> 🏈 American Football </a> <a href="/c/tennis" class="dropdown-item tennis"> 🎾 Tennis </a> <a href="/c/snooker" class="dropdown-item snooker"> 🎱 Snooker </a> <a href="/c/baseball" class="dropdown-item baseball"> ⚾ Baseball </a> <a href="/c/ice-hockey" class="dropdown-item ice-hockey"> 🏒 Ice Hockey </a> <a href="/c/basketball" class="dropdown-item basketball"> 🏀 Basketball </a> <a href="/c/rugby-league" class="dropdown-item rugby-league"> 🏉 Rugby League </a> <a href="/c/australian-rules" class="dropdown-item australian-rules"> 🏉 Australian Rules </a> <a href="/c/handball" class="dropdown-item handball"> 👋 Handball </a> <a href="/c/futsal" class="dropdown-item futsal"> ⚽ Futsal </a> <a href="/c/volleyball" class="dropdown-item volleyball"> 🏐 Volleyball </a> <a href="/c/table-tennis" class="dropdown-item table-tennis"> 🏓 Table Tennis </a> <a href="/c/badminton" class="dropdown-item badminton"> 🏸 Badminton </a> <a href="/c/esports" class="dropdown-item esports"> 🎮 Esports </a>
+          </div></li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div class="my-3 my-md-5">
+     <div class="container">
+      <div class="row g-2">
+       <div class="col-auto">
+        <div class="team_img">
+         <img src="https://assets.b365api.com/images/team/b/3115.png" alt="Widzew Lodz">
+        </div>
+       </div>
+       <div class="col">
+        <div class="float-right">
+         <a href="javascript: void(0)" data-subscribe="team_id=88" class="btn btn-danger">Subscribe</a>
+        </div>
+        <h1><span class="align-middle flag flag-pl"></span> Widzew Lodz</h1>
+        <dl class="row d-none d-lg-block">
+        </dl>
+       </div>
+      </div>
+      <div class="card">
+       <div class="card-tabs text-center">
+        <a class="card-tabs-item" href="/t/88/Widzew-Lodz">Matches</a> <a class="card-tabs-item" href="/ts/88/Widzew-Lodz">Fixtures</a> <a class="card-tabs-item" href="/te/88/Widzew-Lodz">Results</a> <a class="card-tabs-item active" href="/tsd/88/Widzew-Lodz">Squad</a>
+       </div>
+      </div>
+      <div class="tab-content" style="margin-top: 10px">
+       <div class="tab-pane active">
+        <table class="table">
+         <thead>
+          <tr>
+           <td>No.</td>
+           <td>Name</td>
+           <td>Birth Date</td>
+           <td>Age</td>
+           <td>Country</td>
+           <td>Position</td>
+           <td>Height</td>
+           <td>Weight</td>
+           <td>Preferred foot</td>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+           <td>1</td>
+           <td><a href="/pl/44938/Rafal-Gikiewicz">Rafal Gikiewicz</a></td>
+           <td>1987-10-26</td>
+           <td>36</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td>Guard</td>
+           <td>190</td>
+           <td>81</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>25</td>
+           <td><a href="/pl/72830/Marek-Hanousek">Marek Hanousek</a></td>
+           <td>1991-08-06</td>
+           <td>33</td>
+           <td><span class="flag flag-cz"></span></td>
+           <td>Midfielder</td>
+           <td>185</td>
+           <td>77</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>92</td>
+           <td><a href="/pl/105790/Fabio-Nunes">Fabio Nunes</a></td>
+           <td>1992-07-24</td>
+           <td>32</td>
+           <td><span class="flag flag-pt"></span></td>
+           <td>Forward</td>
+           <td>176</td>
+           <td>77</td>
+           <td>Left</td>
+          </tr>
+          <tr>
+           <td>19</td>
+           <td><a href="/pl/119859/Bartlomiej-Pawlowski">Bartlomiej Pawlowski</a></td>
+           <td>1992-11-13</td>
+           <td>31</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td>Forward</td>
+           <td>178</td>
+           <td>70</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>37</td>
+           <td><a href="/pl/146924/Sebastian-Kerk">Sebastian Kerk</a></td>
+           <td>1994-04-17</td>
+           <td>30</td>
+           <td><span class="flag flag-de"></span></td>
+           <td>Midfielder</td>
+           <td>184</td>
+           <td>76</td>
+           <td>Left</td>
+          </tr>
+          <tr>
+           <td>7</td>
+           <td><a href="/pl/339187/Jakub-Lukowski">Jakub Lukowski</a></td>
+           <td>1996-05-25</td>
+           <td>28</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td>Midfielder</td>
+           <td>172</td>
+           <td>67</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>62</td>
+           <td><a href="/pl/934280/Lirim-Kastrati-II">Lirim Kastrati II</a></td>
+           <td>1999-02-02</td>
+           <td>25</td>
+           <td><span class="flag flag-xk"></span></td>
+           <td>Defender</td>
+           <td>178</td>
+           <td>0</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>5</td>
+           <td><a href="/pl/934306/Kreshnik-Hajrizi">Kreshnik Hajrizi</a></td>
+           <td>1999-05-28</td>
+           <td>25</td>
+           <td><span class="flag flag-xk"></span></td>
+           <td>Defender</td>
+           <td>185</td>
+           <td>78</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>2</td>
+           <td><a href="/pl/936358/Luis-Silva">Luis Silva</a></td>
+           <td>1999-02-18</td>
+           <td>25</td>
+           <td><span class="flag flag-pt"></span></td>
+           <td>Defender</td>
+           <td>184</td>
+           <td>79</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>10</td>
+           <td><a href="/pl/944198/Fran-Alvarez">Fran Alvarez</a></td>
+           <td>1998-01-21</td>
+           <td>26</td>
+           <td><span class="flag flag-es"></span></td>
+           <td></td>
+           <td>178</td>
+           <td>0</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>4</td>
+           <td><a href="/pl/944670/Mateusz-Zyro">Mateusz Zyro</a></td>
+           <td>1998-10-28</td>
+           <td>25</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td>Defender</td>
+           <td>187</td>
+           <td>78</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>3</td>
+           <td><a href="/pl/978181/Samuel-Kozlovsky">Samuel Kozlovsky</a></td>
+           <td>1999-11-19</td>
+           <td>24</td>
+           <td><span class="flag flag-sk"></span></td>
+           <td>Defender</td>
+           <td>182</td>
+           <td>76</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>9</td>
+           <td><a href="/pl/1056881/Imad-Rondic">Imad Rondic</a></td>
+           <td>1999-02-16</td>
+           <td>25</td>
+           <td><span class="flag flag-ba"></span></td>
+           <td>Midfielder</td>
+           <td>190</td>
+           <td>83</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>8</td>
+           <td><a href="/pl/1086066/Hillary-Gong">Hillary Gong</a></td>
+           <td>1998-10-10</td>
+           <td>25</td>
+           <td><span class="flag flag-ng"></span></td>
+           <td>Forward</td>
+           <td>169</td>
+           <td>72</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>17</td>
+           <td><a href="/pl/1114453/Hubert-Sobol">Hubert Sobol</a></td>
+           <td>2000-06-25</td>
+           <td>24</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td>Forward</td>
+           <td>183</td>
+           <td>74</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>15</td>
+           <td><a href="/pl/1122513/Juan-Ibiza">Juan Ibiza</a></td>
+           <td>1995-08-17</td>
+           <td>29</td>
+           <td><span class="flag flag-es"></span></td>
+           <td>Defender</td>
+           <td>187</td>
+           <td>78</td>
+           <td>Left</td>
+          </tr>
+          <tr>
+           <td>6</td>
+           <td><a href="/pl/1572488/Juljan-Shehu">Juljan Shehu</a></td>
+           <td>1998-09-06</td>
+           <td>26</td>
+           <td><span class="flag flag-al"></span></td>
+           <td>Midfielder</td>
+           <td>186</td>
+           <td>0</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>77</td>
+           <td><a href="/pl/1595780/Jakub-Sypek">Jakub Sypek</a></td>
+           <td>2001-04-07</td>
+           <td>23</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td>Midfielder</td>
+           <td>180</td>
+           <td>72</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>31</td>
+           <td><a href="/pl/1640680/Mikolaj-Bieganki">Mikolaj Bieganki</a></td>
+           <td>2002-04-05</td>
+           <td>22</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td>Guard</td>
+           <td>190</td>
+           <td>84</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>44</td>
+           <td><a href="/pl/1977319/Noah-Diliberto">Noah Diliberto</a></td>
+           <td>2001-09-08</td>
+           <td>23</td>
+           <td><span class="flag flag-fr"></span></td>
+           <td>Midfielder</td>
+           <td>175</td>
+           <td>0</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>99</td>
+           <td><a href="/pl/2134568/Said-Hamulic">Said Hamulic</a></td>
+           <td>2000-11-12</td>
+           <td>23</td>
+           <td><span class="flag flag-ba"></span></td>
+           <td></td>
+           <td>186</td>
+           <td>83</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>47</td>
+           <td><a href="/pl/2195950/Antoni-Klimek">Antoni Klimek</a></td>
+           <td>2002-08-04</td>
+           <td>22</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td></td>
+           <td>173</td>
+           <td>0</td>
+           <td>Both</td>
+          </tr>
+          <tr>
+           <td>33</td>
+           <td><a href="/pl/2649951/Jan-Krzywanski">Jan Krzywanski</a></td>
+           <td>2003-03-10</td>
+           <td>21</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td></td>
+           <td>189</td>
+           <td>0</td>
+           <td>Right</td>
+          </tr>
+          <tr>
+           <td>91</td>
+           <td><a href="/pl/2650415/Marcel-Krajewski">Marcel Krajewski</a></td>
+           <td>2004-10-21</td>
+           <td>19</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td></td>
+           <td>0</td>
+           <td>0</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>21</td>
+           <td><a href="/pl/2728732/Pawel-Kwiatkowski">Pawel Kwiatkowski</a></td>
+           <td>2006-12-31</td>
+           <td>17</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td></td>
+           <td>0</td>
+           <td>0</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td>78</td>
+           <td><a href="/pl/2764373/Kamil-Cybulski">Kamil Cybulski</a></td>
+           <td>2005-12-02</td>
+           <td>18</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td></td>
+           <td>0</td>
+           <td>0</td>
+           <td></td>
+          </tr>
+          <tr>
+           <td></td>
+           <td><a href="/pl/2827759/Kajetan-Radomski">Kajetan Radomski</a></td>
+           <td>2005-06-21</td>
+           <td>19</td>
+           <td><span class="flag flag-pl"></span></td>
+           <td></td>
+           <td>0</td>
+           <td>0</td>
+           <td></td>
+          </tr>
+         </tbody>
+        </table>
+       </div>
+      </div>
+      <hr>
+      <div class="alert alert-info" role="alert">
+       We're selling <a href="/docs/">API</a>, please <a href="/contactus">Contact Us</a>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="footer">
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-8">
+       <div class="row">
+        <div class="col-6 col-md-3">
+         <ul class="list-unstyled mb-0">
+          <li><a href="/contactus">Contact Us</a></li>
+          <li><a href="https://betsapi.com/docs/" target="_blank">API</a></li>
+         </ul>
+        </div>
+        <div class="col-6 col-md-3">
+         <ul class="list-unstyled mb-0">
+          <li><a href="https://www.facebook.com/bsportsfan/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+          <li><a href="https://twitter.com/score366" target="_blank" rel="noopener noreferrer"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="col-lg-4 mt-4 mt-lg-0">
+       <select id="timezone_picker" class="form-control form-control-sm hide"> <option value="UTC">UTC</option> </select>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer class="footer">
+    <div class="container">
+     <div class="row align-items-center flex-row-reverse">
+      <div class="col-auto ml-lg-auto">
+       <div class="row align-items-center">
+        <div class="col-auto">
+         <ul class="list-inline list-inline-dots mb-0">
+          <li class="list-inline-item"><a href="/p/privacy">Privacy Policy</a></li>
+          <li class="list-inline-item"><a href="/p/tos">Terms of Service</a></li>
+          <li class="list-inline-item"><img src="https://assets.betsapi.com/images/ico/18.svg"></li>
+         </ul>
+        </div>
+       </div>
+      </div>
+      <div class="col-12 col-lg-auto mt-3 mt-lg-0 text-center">
+       Copyright © 2024
+      </div>
+     </div>
+    </div>
+   </footer>
+  </div><!-- Cookie Consent -->
+  <div class="fixed-bottom alert alert-info" role="alert" id="cookie_consent" style="display:none;">
+   <p>This website stores data such as cookies to enable site functionality including analytics and personalization. By using this website, you automatically accept that we use cookies.
+    <button type="button" class="btn btn-light float-right" id="btnAccept">Accept</button></p>
+  </div>
+  <script src="https://assets.betsapi.com/v2/js/bootstrap.bundle.min.js"></script>
+  <script src="https://assets.betsapi.com/v2/js/moment.min.js"></script>
+  <script src="https://assets.betsapi.com/v2/js/moment-timezone.min.js"></script>
+  <script src="https://assets.betsapi.com/v2/js/js.cookie.min.js?_=1"></script>
+  <script src="https://assets.betsapi.com/v2/js/reconnecting-websocket.min.js"></script>
+  <script src="https://assets.betsapi.com/v2/js/app.js?_=10"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LTT3CXFKZ"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-1LTT3CXFKZ');
+</script>
+  <script data-cfasync="false" type="text/javascript" id="clever-core">
+  /* <![CDATA[ */
+  (function (document, window) {
+    var a, c = document.createElement("script"), f = window.frameElement;
+
+        c.id = "CleverCoreLoader74232";
+    c.src = "https://scripts.cleverwebserver.com/e9ff4d75e5f009d75101694ff6f1f80a.js";
+
+    c.async = !0;
+    c.type = "text/javascript";
+    c.setAttribute("data-target", window.name || (f && f.getAttribute("id")));
+    c.setAttribute("data-callback", "put-your-callback-function-here");
+    c.setAttribute("data-callback-url-click", "put-your-click-macro-here");
+    c.setAttribute("data-callback-url-view", "put-your-view-macro-here");
+
+    try {
+        a = parent.document.getElementsByTagName("script")[0] || document.getElementsByTagName("script")[0];
+      } catch (e) {
+        a = !1;
+      }
+
+      a || (a = document.getElementsByTagName("head")[0] || document.getElementsByTagName("body")[0]);
+      a.parentNode.insertBefore(c, a);
+    })(document, window);
+    /* ]]> */
+  </script><!-- clevernt / PL -->
+ </body>
+</html>

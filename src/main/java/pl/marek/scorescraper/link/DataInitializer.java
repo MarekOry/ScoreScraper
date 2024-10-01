@@ -1,4 +1,4 @@
-package pl.marek.scorescraper;
+package pl.marek.scorescraper.link;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -10,9 +10,6 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
-import pl.marek.scorescraper.link.ScrapeableLink;
-import pl.marek.scorescraper.link.ScrapeableLinkRepository;
-import pl.marek.scorescraper.link.ScrapeableLinkType;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -38,8 +35,10 @@ class DataInitializer implements ApplicationListener<ContextRefreshedEvent> {
         for (ScrapeableLink scrapeableLink : leagues) {
             createScrapeableLinkIfNotFound(scrapeableLink);
         }
-        List<ScrapeableLink> clubResultsLinks = createClubLinksFromClubResultsHtmlExample();
-        for (ScrapeableLink scrapeableLink : clubResultsLinks) {
+        List<ScrapeableLink> scrapeableLinks = new ArrayList<>();
+        scrapeableLinks.addAll(createClubResultsLinksFromClubResultsHtmlExample());
+        scrapeableLinks.addAll(createClubSquadLinksFromClubResultsHtmlExample());
+        for (ScrapeableLink scrapeableLink : scrapeableLinks) {
             createScrapeableLinkIfNotFound(scrapeableLink);
         }
         setupIsDone = true;
@@ -55,22 +54,44 @@ class DataInitializer implements ApplicationListener<ContextRefreshedEvent> {
         return scrapeableLink;
     }
 
-    private List<ScrapeableLink> createClubLinksFromClubResultsHtmlExample() {
+    private List<ScrapeableLink> createClubResultsLinksFromClubResultsHtmlExample() {
+        List<ScrapeableLink> clubResultsLinks = new ArrayList<>();
+        Elements links = getLinksFromLeagueTableHtmlExample();
+        if(links.isEmpty()) {
+            throw new RuntimeException("Error while parsing has occurred!");
+        }
+        for (Element link : links) {
+            String row = link.select("a").attr("abs:href");
+            String clubName = link.select("a").text();
+            String clubResultsLink = row.substring(0, 21) + "e" + row.substring(21);
+            ScrapeableLink scrapeableLink = new ScrapeableLink(clubName, ScrapeableLinkType.CLUB_RESULT, clubResultsLink);
+            clubResultsLinks.add(scrapeableLink);
+        } return clubResultsLinks;
+    }
+
+    private List<ScrapeableLink> createClubSquadLinksFromClubResultsHtmlExample() {
+        List<ScrapeableLink> clubSquadLinks = new ArrayList<>();
+        Elements links = getLinksFromLeagueTableHtmlExample();
+        if(links.isEmpty()) {
+            throw new RuntimeException("Error while parsing has occurred!");
+        }
+        for (Element link : links) {
+            String row = link.select("a").attr("abs:href");
+            String clubName = link.select("a").text();
+            String clubSquadLink = row.substring(0, 21) + "sd" + row.substring(21);
+            ScrapeableLink scrapeableLink = new ScrapeableLink(clubName, ScrapeableLinkType.CLUB_SQUAD, clubSquadLink);
+            clubSquadLinks.add(scrapeableLink);
+        } return clubSquadLinks;
+    }
+
+    private static Elements getLinksFromLeagueTableHtmlExample() {
         try {
-            List<ScrapeableLink> clubLinks = new ArrayList<>();
             Path html = Paths.get("src/test/resources/htmlTests/league-table-html-example.txt");
             Document document = Jsoup.parse(html, "UTF-8", "https://betsapi.com/");
-            Elements links = document.select("#overall > div:nth-child(1) > div > table> tbody >tr >td:nth-child(4)");
-            for (Element link : links) {
-                String row = link.select("a").attr("abs:href");
-                String clubName = link.select("a").text();
-                String clubResultsLink = row.substring(0, 21) + "e" + row.substring(21);
-                ScrapeableLink scrapeableLink = new ScrapeableLink(clubName, ScrapeableLinkType.CLUB_RESULT, clubResultsLink);
-                clubLinks.add(scrapeableLink);
-            } return clubLinks;
+            return document.select("#overall > div:nth-child(1) > div > table> tbody >tr >td:nth-child(4)");
         } catch(IOException e) {
             log.error(e);
-        } return new ArrayList<>();
+        } return new Elements();
     }
 
     private final List<ScrapeableLink> leagues = List.of(

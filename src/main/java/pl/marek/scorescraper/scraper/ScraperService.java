@@ -7,7 +7,9 @@ import org.springframework.stereotype.Service;
 import pl.marek.scorescraper.link.LinkNotFoundException;
 import pl.marek.scorescraper.link.ScrapeableLink;
 import pl.marek.scorescraper.link.ScrapeableLinkRepository;
+import pl.marek.scorescraper.link.ScrapeableLinkType;
 import pl.marek.scorescraper.scrapeResults.ClubResults;
+import pl.marek.scorescraper.scrapeResults.ClubSquad;
 import pl.marek.scorescraper.scrapeResults.LeagueTable;
 
 @Service
@@ -20,7 +22,7 @@ public class ScraperService {
     }
 
     public LeagueTable scrapeLeagueTable(String name) {
-        Document documentFromUrl = getHtml(name);
+        Document documentFromUrl = getHtml(name, ScrapeableLinkType.LEAGUE);
 
         ScraperStrategy<LeagueTable> scraper = new ScrapeTableStrategy();
         log.info("Scraping the information about {}", name);
@@ -28,26 +30,34 @@ public class ScraperService {
     }
 
     public ClubResults scrapeClubResults(String name) {
-        Document documentFromUrl = getHtml(name);
+        Document documentFromUrl = getHtml(name, ScrapeableLinkType.CLUB_RESULT);
 
         ScraperStrategy<ClubResults> scraper = new ScrapeClubResultsStrategy();
         log.info("Scraping the information about {}", name);
-        return  scraper.scrape(documentFromUrl);
+        return scraper.scrape(documentFromUrl);
     }
 
-    private Document getHtml(String name) {
-        ScrapeableLink leagueToScrape = getScrapeableLink(name);
-        String link = leagueToScrape.getLink();
+    public ClubSquad scrapeClubSquad(String name) {
+        Document documentFromUrl = getHtml(name, ScrapeableLinkType.CLUB_SQUAD);
+
+        ScraperStrategy<ClubSquad> scraper = new ScrapeClubSquadStrategy();
+        log.info("Scraping the information about {}", name);
+        return scraper.scrape(documentFromUrl);
+    }
+
+    private Document getHtml(String name, ScrapeableLinkType scrapeableLinkType) {
+        ScrapeableLink toScrape = getScrapeableLink(name, scrapeableLinkType);
+        String link = toScrape.getLink();
 
         log.info("Getting html document from {}", link);
         return ScraperUtil.getDocumentFromUrl(link);
     }
 
-    private ScrapeableLink getScrapeableLink(String name) {
+    private ScrapeableLink getScrapeableLink(String name, ScrapeableLinkType scrapeableLinkType) {
         return scrapeableLinkRepository.findAll().stream()
+                .filter(scrapeableLink -> scrapeableLinkType.equals(scrapeableLink.getScrapeableLinkType()))
                 .filter(scrapeableLink -> name.equals(scrapeableLink.getName()))
                 .findFirst()
                 .orElseThrow(LinkNotFoundException::new);
     }
-
 }
